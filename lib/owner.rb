@@ -6,4 +6,7 @@ def initialize(species)
   def species
     return @species
   end
+  
+  def say_species
+    puts "I am a #{species}."
 end
