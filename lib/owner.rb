@@ -22,4 +22,5 @@ def initialize(species)
   
   def pets
     return @pets
+  end
 end
