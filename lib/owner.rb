@@ -22,7 +22,7 @@ def initialize(species)
   
   def pets
     return @pets
-    @pets[:fishes[0] => "Bubbles"]
+    @pets{:fishes[0] => "Bubbles"}
   end
   
   
