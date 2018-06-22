@@ -37,4 +37,6 @@ def initialize(species)
     @pets[:dogs] << buy_dog
   end
   
+  def list_pets
+    return "I have #{:fishies} fish, #{dogs} dog(s), and #{cats} cat(s)."
 end
