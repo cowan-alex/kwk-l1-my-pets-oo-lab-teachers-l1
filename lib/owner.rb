@@ -26,7 +26,7 @@ def initialize(species)
   
   
   def buy_fish(buy_fish)
-    @pets[:fishes]
+    @pets[:fishes] << +1
   end
   
 end
