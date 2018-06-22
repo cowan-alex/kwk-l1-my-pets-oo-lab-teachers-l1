@@ -1,7 +1,7 @@
 class Owner
 def initialize(species)
   @species = species
-  @pets = {":fishes" => [], ":dogs" => [], ":cats" => []}
+  @pets = {:fishes => [], :dogs => [], :cats => []}
   end
   
   def species
@@ -26,18 +26,18 @@ def initialize(species)
   
   
   def buy_fish(buy_fish)
-    @pets[":fishes"] << buy_fish
+    @pets[:fishes] << buy_fish
     end
   
   def buy_cat(buy_cat)
-    @pets[":cats"] << buy_cat
+    @pets[:cats] << buy_cat
   end
   
   def buy_dog(buy_dog)
-    @pets[":dogs"] << buy_dog
+    @pets[:dogs] << buy_dog
   end
   
   def list_pets
-    return "I have #{@pets[":fishies"].length} fish, #{@pets[":dogs"].length} dog(s), and #{@pets[":cats"].length} cat(s)."
+    return "I have #{@pets[:fishies].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
   end
 end
