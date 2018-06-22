@@ -24,9 +24,6 @@ def initialize(species)
     return @pets
   end
   
-  def buy_fish
-    return @buy_fish
-  end
   
   def buy_fish=(buy_fish)
     @buy_fish = buy_fish
