@@ -26,7 +26,7 @@ def initialize(species)
   
   
   def buy_fish(buy_fish)
-    return @pets
+    puts @pe
   end
   
 end
