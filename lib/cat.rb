@@ -11,4 +11,8 @@ class Cat
   def mood
     return @mood
   end
+  
+  def mood=(mood)
+    @mood = mood
+  end
 end
