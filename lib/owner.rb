@@ -10,4 +10,8 @@ def initialize(species)
   def say_species
     return "I am a #{species}."
   end
+  
+  def name
+    return @name
+  end
 end
