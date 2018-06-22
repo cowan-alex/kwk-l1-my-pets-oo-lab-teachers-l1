@@ -38,6 +38,6 @@ def initialize(species)
   end
   
   def list_pets
-    return "I have #{@pets[:fishies].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
+    return "I have #{@pets[":fishies"].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
   end
 end
