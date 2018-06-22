@@ -27,7 +27,7 @@ def initialize(species)
   
   def buy_fish=(buy_fish)
     @buy_fish = buy_fish
-    return @pets.merge(:fishes => ["Bubbles"])
+    return @pets.merge({:fishes => ["Bubbles"]})
   end
   
 end
