@@ -29,4 +29,8 @@ def initialize(species)
     @pets[:fishes] << +1
   end
   
+  def buy_cat(buy_fish)
+    @pets[:cats] << +1
+  end
+  
 end
