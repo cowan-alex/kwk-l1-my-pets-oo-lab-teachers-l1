@@ -8,6 +8,6 @@ def initialize(species)
   end
   
   def say_species
-    print "I am a #{species}."
+    return "I am a #{species}."
   end
 end
