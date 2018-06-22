@@ -27,6 +27,7 @@ def initialize(species)
   
   def buy_fish=(buy_fish)
     @buy_fish = buy_fish
+    return @pets.merge
   end
   
 end
