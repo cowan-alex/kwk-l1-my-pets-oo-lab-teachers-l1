@@ -19,4 +19,7 @@ def initialize(species)
   def name=(name)
     @name = name
   end
+  
+  def pets
+    return @pets
 end
