@@ -23,4 +23,7 @@ def initialize(species)
   def pets
     return @pets
   end
+  
+  def buy_fish
+    return @fish
 end
